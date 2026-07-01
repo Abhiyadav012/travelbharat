@@ -113,6 +113,20 @@ function Admin() {
     );
   }
   return (
+    <>
+     <div className="md:hidden min-h-screen flex items-center justify-center bg-orange-50 px-6">
+      <div className="bg-white p-8 rounded-3xl shadow-xl text-center">
+        <h1 className="text-2xl font-bold mb-3">💻 Desktop Required</h1>
+
+        <p className="text-gray-600">
+          Admin Dashboard is available only on desktop or laptop.
+        </p>
+      </div>
+    </div>
+
+    {/* Desktop Screen */}
+    <div className="hidden md:flex min-h-screen bg-gradient-to-br from-orange-50 to-white">
+
     <div className="min-h-screen flex bg-gradient-to-br from-orange-50 to-white">
       {/* Sidebar */}
       <div
@@ -374,6 +388,8 @@ function Admin() {
         </div>
       </div>
     </div>
+    </div>
+    </>
   );
 }
 
