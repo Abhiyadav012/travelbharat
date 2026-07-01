@@ -24,12 +24,12 @@ function Destinations() {
     },
   ];
   return (
-    <section data-aos="fade-up" className="py-16 px-6 md:px-12">
+    <section data-aos="fade-up" className="py-12 md:py-16 px-5 md:px-12">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
         Featured Destinations
       </h2>
 
-      <div data-aos="flip-left" className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div data-aos="flip-left" className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-6">
         {destinations.map((destination) => (
           <DestinationCard
             key={destination.name}

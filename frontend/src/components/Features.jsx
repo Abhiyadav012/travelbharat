@@ -31,7 +31,7 @@ const features = [
             key={feature.title}
             className="bg-white p-8 rounded-3xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center"
           >
-            <div className="text-5xl mb-4">{feature.icon}</div>
+            <div className="text-3xl md:text-5xl mb-4">{feature.icon}</div>
 
             <h3 className="text-xl font-bold mb-2">
               {feature.title}

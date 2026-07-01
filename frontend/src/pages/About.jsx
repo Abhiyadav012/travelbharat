@@ -6,7 +6,7 @@ function About() {
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-orange-50 to-white py-24">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="text-3xl md:text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             About TravelBharat
           </h1>
 
@@ -43,9 +43,9 @@ function About() {
       <section className="max-w-6xl mx-auto px-6 pb-20">
         <h2 className="text-4xl font-bold text-center mb-12">What We Offer</h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-white rounded-3xl shadow-lg p-8 text-center hover:-translate-y-2 transition">
-            <div className="text-5xl mb-4">🗺</div>
+            <div className="text-3xl md:text-5xl mb-4">🗺</div>
             <h3 className="text-2xl font-bold mb-3">State-wise Guide</h3>
             <p className="text-gray-600">
               Explore destinations across different Indian states.
@@ -53,7 +53,7 @@ function About() {
           </div>
 
           <div className="bg-white rounded-3xl shadow-lg p-8 text-center hover:-translate-y-2 transition">
-            <div className="text-5xl mb-4">🏛</div>
+            <div className="text-3xl md:text-5xl mb-4">🏛</div>
             <h3 className="text-2xl font-bold mb-3">Heritage Sites</h3>
             <p className="text-gray-600">
               Discover forts, monuments and UNESCO heritage places.
@@ -61,7 +61,7 @@ function About() {
           </div>
 
           <div className="bg-white rounded-3xl shadow-lg p-8 text-center hover:-translate-y-2 transition">
-            <div className="text-5xl mb-4">🌿</div>
+            <div className="text-3xl md:text-5xl mb-4">🌿</div>
             <h3 className="text-2xl font-bold mb-3">Nature & Adventure</h3>
             <p className="text-gray-600">
               Mountains, waterfalls, beaches and adventure spots.
@@ -69,7 +69,7 @@ function About() {
           </div>
 
           <div className="bg-white rounded-3xl shadow-lg p-8 text-center hover:-translate-y-2 transition">
-            <div className="text-5xl mb-4">📍</div>
+            <div className="text-3xl md:text-5xl mb-4">📍</div>
             <h3 className="text-2xl font-bold mb-3">Travel Details</h3>
             <p className="text-gray-600">
               Best time to visit, nearby attractions and destination details.
@@ -106,24 +106,24 @@ function About() {
       {/* Statistics */}
       <section className="bg-orange-50 py-20">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-3xl shadow-lg p-8 text-center hover:-translate-y-2 transition">
-              <h2 className="text-5xl font-bold text-orange-500">4+</h2>
+              <h2 className="text-3xl md:text-5xl font-bold text-orange-500">4+</h2>
               <p className="mt-3 text-gray-600 font-semibold">States</p>
             </div>
 
             <div className="bg-white rounded-3xl shadow-lg p-8 text-center hover:-translate-y-2 transition">
-              <h2 className="text-5xl font-bold text-orange-500">12+</h2>
+              <h2 className="text-3xl md:text-5xl font-bold text-orange-500">12+</h2>
               <p className="mt-3 text-gray-600 font-semibold">Destinations</p>
             </div>
 
             <div className="bg-white rounded-3xl shadow-lg p-8 text-center hover:-translate-y-2 transition">
-              <h2 className="text-5xl font-bold text-orange-500">4+</h2>
+              <h2 className="text-3xl md:text-5xl font-bold text-orange-500">4+</h2>
               <p className="mt-3 text-gray-600 font-semibold">Cetegories</p>
             </div>
 
             <div className="bg-white rounded-3xl shadow-lg p-8 text-center hover:-translate-y-2 transition">
-              <h2 className="text-5xl font-bold text-orange-500">100%</h2>
+              <h2 className="text-3xl md:text-5xl font-bold text-orange-500">100%</h2>
               <p className="mt-3 text-gray-600 font-semibold">Responsive</p>
             </div>
           </div>
@@ -151,7 +151,7 @@ function About() {
       {/* CTA */}
       <section className="bg-orange-50 py-20">
         <div className="text-center text-white max-w-4xl mx-auto px-6">
-          <h2 className="text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
             Ready to Explore India?
           </h2>
 

@@ -151,7 +151,7 @@ function Admin() {
       <div className="flex-1 p-8">
         {/* Header */}
         <div className="mb-10">
-          <h1 className="text-5xl font-bold">Admin Dashboard</h1>
+          <h1 className="text-3xl md:text-3xl md:text-5xl font-bold">Admin Dashboard</h1>
 
           <p className="text-gray-500 mt-2">Manage destinations across India</p>
         </div>
@@ -159,7 +159,7 @@ function Admin() {
         {/* Stats Cards */}
         <div
           data-aos="zoom-in"
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10"
         >
           <Link
             to="/destinations"
@@ -168,7 +168,7 @@ function Admin() {
             <p className="text-4xl">📍</p>
             <p className="text-gray-500 mt-3">Destinations</p>
 
-            <h2 className="text-5xl font-extrabold mt-2">
+            <h2 className="text-3xl md:text-5xl font-extrabold mt-2">
               {stats.totalPlaces}
             </h2>
 
@@ -184,7 +184,7 @@ function Admin() {
             <p className="text-4xl">🏷</p>
             <p className="text-gray-500 mt-3">Categories</p>
 
-            <h2 className="text-5xl font-extrabold mt-2">
+            <h2 className="text-3xl md:text-5xl font-extrabold mt-2">
               {stats.totalCategories}
             </h2>
 
@@ -195,7 +195,7 @@ function Admin() {
 
           <div className="group bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
             <div className="flex items-center justify-between">
-              <span className="text-5xl">🟢</span>
+              <span className="text-3xl md:text-5xl">🟢</span>
 
               <span className="px-4 py-2 bg-green-500 text-white rounded-full text-sm font-semibold">
                 Active

@@ -56,21 +56,21 @@ function StateDetails() {
       <img
         src={state.image}
         alt={state.title}
-        className="w-full h-[60vh] object-cover"
+        className="w-full h-[35vh] sm:h-[45vh] md:h-[60vh] object-cover"
       />
 
       {/* About */}
-      <div data-aos="fade-up" className="max-w-6xl mx-auto px-6 py-16">
-        <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12">
+      <div data-aos="fade-up" className="max-w-6xl mx-auto px-5 md:px-6 py-10 md:py-16">
+        <div className="bg-white rounded-3xl shadow-xl p-5 md:p-12">
           <p className="text-orange-500 font-semibold uppercase tracking-widest mb-3">
             Discover {state.title}
           </p>
 
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-3xl md:text-5xl font-bold mb-6">
             Explore the Beauty of {state.title}
           </h1>
 
-          <p className="text-lg text-gray-600 leading-8 mb-10">
+          <p className="text-base md:text-lg text-gray-600 leading-7 md:leading-8 mb-8">
             {state.description}
           </p>
 
@@ -91,8 +91,8 @@ function StateDetails() {
       </div>
 
       {/* Places */}
-      <div data-aos="fade-up" className="max-w-6xl mx-auto px-6 pb-16">
-        <h2 className="text-4xl font-bold mb-8">Top Places To Visit</h2>
+      <div data-aos="fade-up" className="max-w-6xl mx-auto px-5 md:px-6 pb-12 md:pb-16">
+        <h2 className="text-3xl md:text-4xl font-bold mb-8">Top Places To Visit</h2>
 
         <div className="flex flex-wrap gap-3 mb-8">
           {["All", "Heritage", "Nature", "Religious", "Adventure"].map(
@@ -100,7 +100,7 @@ function StateDetails() {
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-5 py-2 rounded-full font-medium transition ${
+                className={`px-4 md:px-5 py-2 text-sm md:text-base rounded-full ... font-medium transition ${
                   selectedCategory === category
                     ? "bg-gradient-to-r from-orange-500 to-red-500 text-white"
                     : "bg-orange-100 text-orange-600"
@@ -121,11 +121,11 @@ function StateDetails() {
               <img
                 src={place.image}
                 alt={place.placeName}
-                className="w-full h-56 object-cover"
+               className="w-full h-52 md:h-56 object-cover"
               />
 
-              <div className="p-5">
-                <h3 className="text-2xl font-bold mb-2">{place.placeName}</h3>
+              <div className="p-4 md:p-5">
+                <h3 className="text-xl md:text-2xl font-bold mb-2">{place.placeName}</h3>
 
                 <p className="text-gray-500 mb-2">📍 {place.city}</p>
 

@@ -60,12 +60,12 @@ function States({ search }) {
   });
 
   return (
-    <section data-aos="fade-up" className="py-16 px-6 md:px-12">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+    <section data-aos="fade-up" className="py-12 md:py-16 px-5 md:px-12">
+      <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">
         Popular States
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
         {filteredStates.length === 0 ? (
           <p className="text-center text-gray-500 text-xl col-span-full">
             No states found 😢
@@ -75,7 +75,7 @@ function States({ search }) {
             <Link key={state.name} to={`/states/${state.name.toLowerCase()}`}>
               <div
                 data-aos="zoom-in"
-                className="relative overflow-hidden rounded-3xl h-80 cursor-pointer group"
+                className="relative overflow-hidden rounded-3xl h-64 sm:h-72 md:h-80 cursor-pointer group shadow-lg"
               >
                 <img
                   src={state.image}
@@ -85,7 +85,7 @@ function States({ search }) {
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
 
-                <div className="absolute bottom-0 left-0 p-6 text-white">
+                <div className="absolute bottom-0 left-0 p-4 text-white">
                   <h3 className="text-3xl font-bold">{state.name}</h3>
 
                   <p className="text-gray-200 mt-2">

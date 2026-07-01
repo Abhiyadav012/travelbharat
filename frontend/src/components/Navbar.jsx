@@ -16,10 +16,10 @@ function Navbar() {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md flex items-center justify-between px-6 py-4 md:px-12 border-b border-gray-200 shadow-sm">
+      <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md flex items-center justify-between px-4 sm:px-6 md:px-12 py-4 border-b border-gray-200 shadow-sm">
 
         <Link to="/">
-          <h2 className="text-2xl md:text-3xl xl:text-4xl font-extrabold bg-gradient-to-r from-red-500 via-orange-500 to-blue-500 bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-3xl xl:text-4xl font-extrabold bg-gradient-to-r from-red-500 via-orange-500 to-blue-500 bg-clip-text text-transparent">
             TravelBharat
           </h2>
         </Link>
@@ -70,7 +70,7 @@ function Navbar() {
 
         {/* Hamburger */}
         <button
-          className="lg:hidden text-3xl"
+          className="lg:hidden text-3xl text-gray-700 hover:text-orange-500 transition"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? "✕" : "☰"}

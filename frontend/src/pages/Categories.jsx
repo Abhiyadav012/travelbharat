@@ -34,7 +34,7 @@ function Categories() {
             Explore By Category
           </p>
 
-          <h1 className="text-5xl font-bold mt-3 mb-4">Tourist Categories</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mt-3 mb-4">Tourist Categories</h1>
 
           <p className="text-gray-600 max-w-3xl mx-auto">
             Discover India's most beautiful destinations based on your travel
@@ -42,7 +42,7 @@ function Categories() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {categories.map((category) => (
             <div
               data-aos="zoom-in"
